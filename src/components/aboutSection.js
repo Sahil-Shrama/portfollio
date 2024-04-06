@@ -6,7 +6,7 @@ import { pageAnimation, titleAnim, fade, photoAnim } from "./animate";
 import Wave from "./waveAnimation";
 import { styled } from "styled-components";
 import { Navigate, useNavigate } from "react-router-dom";
-
+import resume from "../documents/resumeShahilSharma.pdf";
 
 const AboutSection = () => {
 const Navigate = useNavigate();
@@ -51,7 +51,13 @@ const Navigate = useNavigate();
         >
           Conatct
         </motion.button>
-        <motion.button variants={fade} initial="hidden" animate="show">
+        
+        <motion.button variants={fade} initial="hidden" animate="show"
+        onClick={()=>{
+          window.open(resume);
+
+        }}
+        >
           Resume
         </motion.button>
       </Description>
