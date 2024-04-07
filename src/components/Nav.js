@@ -38,11 +38,13 @@ const Nav =() =>{
 const StyledNav = styled.nav`
     min-height: 10vh;
     overflow-x: hidden;
-    width: 100vw;
+    max-width: 100vw;
+    
     display: flex;
     margin: auto;
     justify-content: space-between;
     background-color: #282828;
+    /* background: white; */
     align-items: center;
     padding: 1rem 10rem;
     a{

@@ -83,10 +83,20 @@ width: 40rem;
 @media(max-width: 1200px){
     margin: auto;
     justify-content: center;
+    
     /* flex-direction: column; */
 
 }
+@media(max-width: 768px){
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    
+    /* flex-direction: column; */
 
+
+
+}
 
 `
 const Card = styled.div`

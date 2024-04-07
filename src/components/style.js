@@ -3,10 +3,14 @@ import {motion} from 'framer-motion'
 export const About = styled.div`
 min-height: 85vh;
 display: flex;
+max-width: 100vw;
+overflow-x: hidden;
 justify-content: space-between;
 align-items: center;
 padding: 2rem 7rem;
 color: white;
+
+
 @media (max-width: 1300px){
 
     display: block;
