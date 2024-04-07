@@ -1,5 +1,6 @@
 import React from "react";
 import movie from '../images/Group 18.png'
+import pichub from '../images/PICHUB (1).png'
 import styled from 'styled-components'
 import {motion} from 'framer-motion'
 import { pageAnimation } from "../components/animate";
@@ -16,6 +17,17 @@ const MyWork = () =>{
           animate="show"></motion.div>
                 <a href="https://major-project-movie-website.web.app/">
                     <motion.img src={movie} alt="moviesite" variants={photoAnim} initial="hidden"
+          animate="show" />
+                </a>
+            </Project>
+          
+            <Project>
+                <motion.h2 variants={fade} initial="hidden"
+          animate="show" >Picture Website</motion.h2>
+                <motion.div className="line" variants={lineAnim} initial="hidden"
+          animate="show"></motion.div>
+                <a href="https://pichub-woad.vercel.app/index.html">
+                    <motion.img src={pichub} alt="moviesite" variants={photoAnim} initial="hidden"
           animate="show" />
                 </a>
             </Project>
