@@ -7,6 +7,15 @@ justify-content: space-between;
 align-items: center;
 padding: 2rem 7rem;
 color: white;
+@media (max-width: 1300px){
+
+    display: block;
+    padding: 2rem 2rem;
+    text-align: center;
+    /* padding: 2rem; */
+
+}
+
 `;    
 
 export const Description =styled(motion.div)`
@@ -16,6 +25,16 @@ export const Description =styled(motion.div)`
     h2{
    font-weight: lighter;
     }
+
+ @media (max-width: 1200px){
+    padding: 0;
+    button{
+        margin: 2rem 0rem 5rem 3rem;
+    
+ }
+
+}
+
 `
 
 export const Image = styled.div`
@@ -27,7 +46,15 @@ export const Image = styled.div`
        width: 100%;
        object-fit: cover;
        object-position: bottom;
+
+}
+@media (max-width:1200px){
+    img{
+        height: 100%;
+        width: 100%;
     }
+}
+
 `
 export const Hide = styled.div`
     overflow: hidden;

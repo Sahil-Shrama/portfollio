@@ -13,7 +13,7 @@ const ServiceSection = () =>{
     return(
         <Services>
             < Description>
-            <h2>Intermidiate <span> Knowledge </span> Of</h2>
+            <h2>Technologies  & <span> Langauage </span> </h2>
             <Cards>
                 <Card>
                     <div className="icons">
@@ -79,6 +79,15 @@ width: 40rem;
 
     display: flex;
     flex-wrap: wrap;
+
+@media(max-width: 1200px){
+    margin: auto;
+    justify-content: center;
+    /* flex-direction: column; */
+
+}
+
+
 `
 const Card = styled.div`
 flex-basis: 20rem;
@@ -96,10 +105,19 @@ h3{
     color: black;
     padding: 0.5rem;
 }
+
+
+
 `
 const Img = styled(Image)`
 
 width: 60rem;
+
+@media(max-width: 1200px){
+    width: 100%;
+    margin-left: 0rem;
+
+}
 img{
     
     

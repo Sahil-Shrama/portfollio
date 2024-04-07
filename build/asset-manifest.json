@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.5550c24e.js",
+    "main.js": "/static/js/main.06a483d6.js",
     "static/media/coder.gif": "/static/media/coder.18f0fc82d634e1e3e35c.gif",
     "static/media/me.jpg": "/static/media/me.a4b4099e2844dd396e05.jpg",
-    "static/media/resumeShahilSharma.pdf": "/static/media/resumeShahilSharma.c2449d42b96036bc6305.pdf",
+    "static/media/resumeShahilSharma.pdf": "/static/media/resumeShahilSharma.4726dc682025b4c51ed7.pdf",
     "static/media/Group 18.png": "/static/media/Group 18.7ce8bb2d2a98cfdef5b1.png",
     "static/media/linux.svg": "/static/media/linux.29e99dcd02458c97cda87e3433f47fbf.svg",
     "static/media/java.svg": "/static/media/java.f32b804c3e6d313127f997746a73c0bf.svg",
     "static/media/js.svg": "/static/media/js.1fc8a43936705ec4108308144a128ca7.svg",
     "static/media/database-solid.svg": "/static/media/database-solid.651078dae6a698fb456bfa206123d7ed.svg",
     "index.html": "/index.html",
-    "main.5550c24e.js.map": "/static/js/main.5550c24e.js.map"
+    "main.06a483d6.js.map": "/static/js/main.06a483d6.js.map"
   },
   "entrypoints": [
-    "static/js/main.5550c24e.js"
+    "static/js/main.06a483d6.js"
   ]
 }

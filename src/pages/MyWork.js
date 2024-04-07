@@ -30,10 +30,17 @@ const Work = styled(motion.div)`
     min-height: 100vh;
     overflow: hidden;
     padding: 2rem 10rem;
+
     h2{
         padding: 1rem 0rem;
         color: white;
+
     }
+@media (max-width: 1200px){
+    padding: 2rem 4rem;
+
+}
+
 `
 const Project = styled(motion.div)`
     padding-bottom: 10rem;
@@ -47,6 +54,9 @@ const Project = styled(motion.div)`
         width: 100%;
         height: 70vh;
         object-fit: cover;
+        object-position: center;
+        @media(max-width:1300px){
+            height: 100%;
     }
 
 

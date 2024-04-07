@@ -41,8 +41,10 @@ const Navigate = useNavigate();
           </Hide>
         </motion.div>
         <motion.p variants={fade} initial="hidden" animate="show">
-          Contact us for stunning frontend design . Full fill your dream of
-          having your business online
+       Shahil sharma graduated from post graduate govt college sector 11 chandigarh PU .
+       applying for frontend job or Internship
+
+         
         </motion.p>
         <motion.button variants={fade} initial="hidden" animate="show"
         onClick={()=>{

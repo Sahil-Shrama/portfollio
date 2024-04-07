@@ -12,43 +12,39 @@ const FaqSection = () => {
       initial="hidden"
     >
       <h2>
-        Any Questions <span>FAQ</span>
+          <span>FAQ</span>
       </h2>
       
-        <Toggle title="How Do I Start?">
+        <Toggle title="Education">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>BCA from PGGC 11 chandigarh in 2024</p>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi
-              autem accusamus ex laboriosam porro, adipisci quam voluptatum
-              magnam placeat corporis.
+              10 + 12 from army public school
             </p>
           </div>
         </Toggle>
-        <Toggle title="Daily Schedule">
+        <Toggle title="Intrest">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Learning new technologies</p>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error,
-              totam.
+              Sports * Travelling 
+              
             </p>
           </div>
         </Toggle>
-        <Toggle title="Diferrent Payment Methods">
+        
+        <Toggle title="Contact">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Necessitatibus, neque.
+              Check out resume for all details
             </p>
           </div>
         </Toggle>
-        <Toggle title="What Products do you offer.">
+        
+        <Toggle title="Quote.">
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Necessitatibus, neque.
+              Its a shame for a men to die without knowing what he could have achive
             </p>
           </div>
         </Toggle>

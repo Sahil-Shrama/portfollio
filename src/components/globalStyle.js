@@ -8,6 +8,17 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     }
 
+html {
+    @media(max-width:1200px){
+        font-size: 75%;
+        /* width: 100vw; */
+        overflow-x: hidden;
+        /* opacity: 0; */
+
+    }
+}
+
+
 @font-face {
     font-family:lobster ;
     src: url(../font/Lobster-Regular.ttf);
@@ -61,6 +72,7 @@ p{
     color: #ccc;
     font-size: 1.1rem;
     line-height: 150%;
+
 
 }
 
