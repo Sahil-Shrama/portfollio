@@ -5,13 +5,13 @@ import ContactForm from "../components/form";
 const ContactUs = () =>{
     return(
         <>
-        <motion.div variants={sliderContainer} initial = 'hidden'  animate = 'show'>
+        {/* <motion.div variants={sliderContainer} initial = 'hidden'  animate = 'show'>
         <Frame1 variants={slide} ></Frame1>
         <Frame2 variants={slide} ></Frame2>
         <Frame3 variants={slide} ></Frame3>
         <Frame4 variants={slide} ></Frame4>
         
-        </motion.div>
+        </motion.div> */}
         <ContactForm  variants={foorm} initial='hidden' animate='show' />
 
         </>
